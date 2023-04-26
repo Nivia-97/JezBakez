@@ -1,0 +1,149 @@
+@media screen and (min-width:1300px) {
+
+    .hr-above-table {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .cartlist-head {
+        /* text-align: center; */
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    .coupon-code-area {
+        display: inline-block;
+    }
+
+    .coupon-code {
+        padding: 6px 10px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .coupon-code-button {
+        padding: 7px 15px;
+        background-color: #f195b2;
+        color: white;
+        border: none;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-bottom: 100px;
+    }
+
+    .check-out {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .subtotal,
+    .discount,
+    .total {
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    .subtotal-amount,
+    .discount-amount,
+    .total-amount {
+        text-align: right;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+    }
+
+    .check-out-button {
+        padding: 10px 15px;
+        background-color: #f195b2;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin: 25px 0px 10px 0px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .cart-list-column, .checkout-column{
+        padding: 0;
+    }
+
+    .hr-above-table {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .cartlist-head {
+        /* text-align: center; */
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    .coupon-code-area {
+        display: inline-block;
+    }
+
+    .coupon-code {
+        padding: 6px 10px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .coupon-code-button {
+        padding: 7px 15px;
+        background-color: #f195b2;
+        color: white;
+        border: none;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        margin-bottom: 50px;
+    }
+
+    .check-out {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .subtotal,
+    .discount,
+    .total {
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    .subtotal-amount,
+    .discount-amount,
+    .total-amount {
+        text-align: right;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+    }
+
+    .check-out-button {
+        padding: 10px 15px;
+        background-color: #94c9d9;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin: 25px 0px 10px 0px;
+    }
+
+}

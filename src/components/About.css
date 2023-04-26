@@ -1,0 +1,160 @@
+
+/* About Us */
+
+.about-us-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 10px 0px;
+    color:rgba(0,0,0, 0.8);
+}
+
+.about-us-main {
+    font-family: 'Lora', serif;
+    color:rgba(0,0,0, 0.8);
+}
+
+.about-us-note {
+    color:rgba(0,0,0, 0.7);
+}
+
+
+
+/* About Chefs */
+
+.about-chefs{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-chefs h2{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.talent{
+    text-align: center;
+    color:dimgray;
+    font-weight: 700;
+}
+
+
+
+@media screen and (min-width:1300px){
+
+    .about-page-header{
+        width: 100%;
+        height: 130px;
+        background-color: #f195b2;
+        margin-bottom: 150px;
+    }
+
+    /* About Us */
+
+    .about-us-container {
+        margin: 100px;
+    }
+
+    .about-us-details{
+        padding-right: 20px;
+    }
+
+    .about-us-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .about-us-main {
+        font-size: 19px;
+    }
+    
+    .about-us-note {
+        font-size: 17.5px;
+    }
+
+    .about-us-image{
+        padding-left: 20px;
+    }
+
+    /* About Chefs */
+
+    .about-chefs{
+        padding: 100px 80px;
+    }
+
+    .about-chefs h1{
+        font-weight: 700;
+        margin: 20px 0px;
+    }
+
+    .about-chefs .chef-about{
+        color: rgba(0,0,0, 0.8);
+    }
+
+    
+}
+
+
+@media screen and (max-width:600px){
+
+    .about-page-header{
+        width: 100%;
+        height: 50px;
+        background-color: #f195b2;
+        margin-bottom: 20px;
+    }
+
+    /* About Us */
+
+    .about-us-container {
+        margin: 10px;
+    }
+
+    .about-us-details{
+        margin: 30px 0px;
+    }
+
+    .about-us-image {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about-us-container h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .about-us-main {
+        font-size: 18px;
+    }
+    
+    .about-us-note {
+        font-size: 17.5px;
+    }
+
+    /* About Chefs */
+
+    .about-chefs h1{
+        font-weight: 700;
+        margin: 50px 0px 30px;
+        text-align: center;
+    }
+
+    .about-chefs .chef-about{
+        color: rgba(0,0,0, 0.8);
+        padding-right: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .chef{
+        margin-bottom: 50px;
+    }
+
+    .about-chefs img{
+        margin: 0px 40px;
+    }
+    
+}

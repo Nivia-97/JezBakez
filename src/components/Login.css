@@ -1,0 +1,36 @@
+
+@media screen and (min-width:1300px){
+
+    .login-page-header{
+        width: 100%;
+        height: 130px;
+        background-color: #f195b2;
+        margin-bottom: 150px;
+    }
+
+    .log-in{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin: 100px;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+
+    .login-page-header{
+        width: 100%;
+        height: 50px;
+        background-color: #f195b2;
+        margin-bottom: 20px;
+    }
+
+    .log-in{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 100px 20px;
+    }
+
+}

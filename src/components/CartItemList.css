@@ -1,0 +1,123 @@
+@media screen and (min-width:1300px) {
+
+    .cart-image {
+        height: 85px;
+        width: 85px;
+    }
+
+    .cart-product-name {
+        display: inline-block;
+        color: #f195b2;
+        margin-left: 20px;
+    }
+
+    .cart-product-price {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+    .quantity-btn-group {
+        margin-top: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+    }
+
+    .quantity-btn {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .quantity-btn:active,
+    .quantity-btn:focus {
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .item-quantity {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.5)
+    }
+
+    .delete-item {
+        margin-top: 30px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .delete-item:hover {
+        color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+
+    .cart-product-subtotal {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .cart-image {
+        height: 85px;
+        width: 85px;
+    }
+
+    .cart-product-name {
+        display: inline-block;
+        color: #f195b2;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .cart-product-price {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+    .quantity-btn-group {
+        margin-top: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+    }
+
+    .quantity-btn {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .quantity-btn:active,
+    .quantity-btn:focus {
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .item-quantity {
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.5)
+    }
+
+    .delete-item {
+        margin-top: 30px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .delete-item:hover {
+        color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+
+    .cart-product-subtotal {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+}

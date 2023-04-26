@@ -1,0 +1,217 @@
+/* Title */
+
+.header-img {
+    width: 100%;
+}
+
+.title-info button:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+/* About */
+
+.about-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 10px 0px;
+    color:rgba(0,0,0, 0.8);
+}
+
+.about-container .brief-main {
+    font-family: 'Lora', serif;
+    color:rgba(0,0,0, 0.8);
+}
+
+.about-container .note {
+    color:rgba(0,0,0, 0.7);
+}
+
+.about-container button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #f195b2;
+    color: white;
+    font-weight: 500;
+}
+
+.about-container button:hover{
+    background-color:rgba(241, 149, 178, 0.8) ;
+}
+
+/* Services */
+
+.services-offering{
+    background-color:whitesmoke;
+}
+
+.services-offering h1{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+
+@media screen and (min-width:1300px) {
+
+    /* Title */
+
+    .title-info {
+        text-align: center;
+        width: 50%;
+        position: absolute;
+        bottom: 200px;
+        left: 300px;
+    }
+
+    .title-info h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #753375;
+    }
+
+    .title-info p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #753375;
+    }
+
+    .title-info button {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        color: grey;
+        font-weight: 500;
+    }
+
+    /* About */
+
+    .about-container {
+        margin: 100px;
+    }
+
+    .about-container .about-details{
+        padding-right: 20px;
+    }
+
+    .about-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .about-container .brief-main {
+        font-size: 19px;
+    }
+    
+    .about-container .note {
+        font-size: 17.5px;
+    }
+    
+    .about-container button {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .about-container img{
+        padding-left: 20px;
+    }
+
+    /* Services */
+
+    .services-offering{
+        padding: 110px;
+    }
+
+    .services-offering h1{
+        font-size: 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .title-info {
+        text-align: center;
+        width: 80%;
+        position: absolute;
+        bottom: 330px;
+        left: 30px;
+    }
+
+    .title-info h1 {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #753375;
+    }
+
+    .title-info p {
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #753375;
+    }
+
+    .title-info button {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        color: grey;
+        font-weight: 500;
+    }
+
+    /* About */
+
+    .about-container {
+        margin: 10px;
+    }
+
+    .about-container .about-details{
+        margin: 70px 0px;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-container h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .about-container .brief-main {
+        font-size: 18px;
+    }
+    
+    .about-container .note {
+        font-size: 17.5px;
+    }
+    
+    .about-container button {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .about-container img{
+        margin-bottom: 50px;
+    }
+
+    /* Services */
+
+    .services-offering{
+        padding: 40px 20px;
+    }
+
+    .services-offering h1{
+        font-size: 25px;
+    }
+
+}
